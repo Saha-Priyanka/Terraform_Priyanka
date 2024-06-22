@@ -1,6 +1,6 @@
 
 #namespace
 
-eventhub_name = "Eventhub_github_action_01" #"priyankanamespaces" 
+eventhub_name = "Eventhubgithubaction" #"priyankanamespaces" 
 sku1 = "Standard"
 capacity = 1
