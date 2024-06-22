@@ -16,13 +16,7 @@ module "azurerm_eventhub_namespace" {
   location              = module.azurerm_resource_group.resource_group_location
 }
 
-module "azurerm_static_site" {
-  source = "./modules/staticwebsite"
-  #location = var.location
-  web_sites_productivity_app_production = var.web_sites_productivity_app_production
-   resource_group_name = module.azurerm_resource_group.resource_group_name
-  location              = module.azurerm_resource_group.resource_group_l
-}
+
 
 
 
