@@ -1,8 +1,6 @@
-# Author : Priyanka Saha
-# Date : 28-11-2023
-# Purpose : We are creating eventhub_namespace to deploy it in the azure portal.
 
-variable "eventhub_namespaces_data_processing_dev" {
+
+variable "eventhub_name" {
   description = "The name of the Event Hub namespace"
   type        = string
 }
@@ -18,10 +16,10 @@ variable "capacity" {
 }
 variable "resource_group_name" {
   type    = string
-  #default = upper("etpx-rg")
+  
 }
  
 variable "location" {
   type    = string
-  default = "westeurope"
+ 
 }
